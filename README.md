@@ -11,10 +11,20 @@ This project is a React-based interactive bubble visualization that displays cry
 <h2>Features</h2>
 
 <p align="left">
-Interactive Bubble Visualization: The visualization uses D3.js to create an interactive bubble chart that responds to user input.
-Real-time Data: The project fetches data from a JSON file and updates the visualization in real-time.
-Responsive Design: The visualization is responsive and adapts to different screen sizes and devices.
-Touch Support: The project includes touch event listeners for mobile devices.
+  <ul>
+    <li>
+      Interactive Bubble Visualization: The visualization uses D3.js to create an interactive bubble chart that responds to user input.
+    </li>
+      <li>
+      Real-time Data: The project fetches data from a JSON file and updates the visualization in real-time.
+    </li>
+      <li>
+      Responsive Design: The visualization is responsive and adapts to different screen sizes and devices.
+    </li>
+      <li>
+      Touch Support: The project includes touch event listeners for mobile devices.
+    </li>
+  </ul>
 </p>
 
 
