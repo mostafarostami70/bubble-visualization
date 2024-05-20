@@ -1,8 +1,9 @@
 <H1 align="left">Bubble Visualization
 </H1>
 
-Overview
+<h2>Overview</h2>
 This project is a React-based interactive bubble visualization that displays cryptocurrency data. The bubbles represent different cryptocurrencies, and their size and color are determined by their 24-hour price change percentage. Users can interact with the visualization by clicking and dragging the bubbles.
+</hr>
 --------------------------------------------------
 Features
 Interactive Bubble Visualization: The visualization uses D3.js to create an interactive bubble chart that responds to user input.
@@ -10,15 +11,19 @@ Real-time Data: The project fetches data from a JSON file and updates the visual
 Responsive Design: The visualization is responsive and adapts to different screen sizes and devices.
 Touch Support: The project includes touch event listeners for mobile devices.
 ----------------
+</hr>
+
 Getting Started
 Installation
 Clone the repository: git clone https://github.com/mostafarostami70/bubble-visualization.git
 Install dependencies: npm install
 Start the development server: npm start
+</hr>
 
 Usage
 Open the project in your web browser: http://localhost:3000
 Interact with the visualization by clicking and dragging the bubbles.
+</hr>
 
 Technical Details
 
@@ -26,11 +31,12 @@ Technologies Used
 React: The project uses React for building the user interface.
 D3.js: D3.js is used for creating the interactive bubble chart.
 Axios: Axios is used for fetching data from the JSON file.
+</hr>
 
 Data Format
 The project expects the data to be in the following format:
 json
-{
+<dode>{
   "result": [
     {
       "symbol": "BTC",
@@ -43,7 +49,7 @@ json
     ...
   ]
 }
-
+</code>
 Customization
 You can customize the visualization by modifying the Bubble.js file. You can change the appearance of the bubbles, the forces used in the simulation, and the event listeners.
 
