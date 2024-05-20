@@ -4,28 +4,33 @@
 <h2>Overview</h2>
 This project is a React-based interactive bubble visualization that displays cryptocurrency data. The bubbles represent different cryptocurrencies, and their size and color are determined by their 24-hour price change percentage. Users can interact with the visualization by clicking and dragging the bubbles.
 </hr>
---------------------------------------------------
+
 Features
 Interactive Bubble Visualization: The visualization uses D3.js to create an interactive bubble chart that responds to user input.
 Real-time Data: The project fetches data from a JSON file and updates the visualization in real-time.
 Responsive Design: The visualization is responsive and adapts to different screen sizes and devices.
 Touch Support: The project includes touch event listeners for mobile devices.
-----------------
-</hr>
 
-Getting Started
-Installation
+</hr>
+<h2>Getting Started
+</h2>
+<h3>Installation
+</h3>
+
 Clone the repository: git clone https://github.com/mostafarostami70/bubble-visualization.git
 Install dependencies: npm install
 Start the development server: npm start
 </hr>
 
-Usage
+<h3>Usage
+</h3>
 Open the project in your web browser: http://localhost:3000
 Interact with the visualization by clicking and dragging the bubbles.
 </hr>
 
-Technical Details
+<h3>Technical Details
+</h3>
+
 
 Technologies Used
 React: The project uses React for building the user interface.
