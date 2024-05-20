@@ -8,6 +8,9 @@ This project is a React-based interactive bubble visualization that displays cry
 </hr>
 
 
+![](https://github.com/mostafarostami70/bubble-visualization/blob/main/public/screen.gif)
+
+
 <h2>Features</h2>
 
 <p align="left">
