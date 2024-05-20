@@ -33,15 +33,23 @@ This project is a React-based interactive bubble visualization that displays cry
 </h2>
 <h3>Installation
 </h3>
+<ul>
+  <li>
+    Clone the repository: git clone https://github.com/mostafarostami70/bubble-visualization.git
 
-Clone the repository: git clone https://github.com/mostafarostami70/bubble-visualization.git
-Install dependencies: npm install
-Start the development server: npm start
+  </li>
+  <li>
+    Install dependencies: npm install
+  </li>
+  <li>
+    Start the development server: npm start
+  </li>
+</ul>
 </hr>
 
 <h3>Usage
 </h3>
-Open the project in your web browser: http://localhost:3000
+<p>Open the project in your web browser: http://localhost:3000</p>
 Interact with the visualization by clicking and dragging the bubbles.
 </hr>
 
@@ -50,15 +58,23 @@ Interact with the visualization by clicking and dragging the bubbles.
 
 
 Technologies Used
-React: The project uses React for building the user interface.
-D3.js: D3.js is used for creating the interactive bubble chart.
-Axios: Axios is used for fetching data from the JSON file.
+<ul>
+  <ol>
+    React: The project uses React for building the user interface.
+  </ol>
+   <ol>
+    D3.js: D3.js is used for creating the interactive bubble chart.
+  </ol>
+   <ol>
+    Axios: Axios is used for fetching data from the JSON file.
+  </ol>
+</ul>
 </hr>
 
 Data Format
 The project expects the data to be in the following format:
 json
-<dode>{
+<code>{
   "result": [
     {
       "symbol": "BTC",
